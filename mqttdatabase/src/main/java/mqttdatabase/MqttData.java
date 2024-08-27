@@ -12,7 +12,7 @@ public class MqttData {
 
 	    public static void main(String[] args) {
 	        // MQTT broker connection details
-	        String brokerUrl = "tcp://fleet-backend.evrides.in:2883";
+	        String brokerUrl = "tcp://aws---broker.in:2883"; //Add brokerUrl as publisher
 	        String clientId = "clientmyrjava";
 	        String topic = "aws/data";
 	        String username = "aws";
