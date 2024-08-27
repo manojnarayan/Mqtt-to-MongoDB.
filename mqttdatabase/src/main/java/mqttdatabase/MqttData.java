@@ -14,9 +14,9 @@ public class MqttData {
 	        // MQTT broker connection details
 	        String brokerUrl = "tcp://fleet-backend.evrides.in:2883";
 	        String clientId = "clientmyrjava";
-	        String topic = "gmr/data";
-	        String username = "gmr";
-	        String password = "Tride@123";
+	        String topic = "aws/data";
+	        String username = "aws";
+	        String password = "aws@123";
 
 	        // MongoDB connection details
 	        String mongoUri = "mongodb://localhost:27017"; // MongoDB URI
